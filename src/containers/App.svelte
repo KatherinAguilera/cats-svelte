@@ -1,3 +1,12 @@
+<script>
+  import Header from '../components/Header.svelte';
+  import Main from '../components/Main.svelte';
+  import SideBar from '../components/SideBar.svelte';
+  import TimeLine from '../components/TimeLine.svelte';
+
+
+</script>
+
 <style>
   :global(body){
     background: #676778;
@@ -6,6 +15,8 @@
 
 </style>
 
-<div class="main">
-  <h1>Hello Cats</h1>
-</div>
+<Header/>
+<Main>
+  <TimeLine/>
+  <SideBar/>
+</Main>
