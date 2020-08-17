@@ -51,7 +51,7 @@
     border: double 2px transparent;
     border-radius: 100%;
     background-image: linear-gradient(#fff, #fff),
-      radial-gradient(circle at top left, #f09433, #bc1888);
+    radial-gradient(circle at top left, #f09433, #bc1888);
     background-origin: border-box;
     background-clip: content-box, border-box;
   }

@@ -1,3 +1,19 @@
+<script>
+  export let comments = [];
+  function addComment(e) {
+    const msg = event.target.text.value
+    if(msg.length > 3) {
+      const message = {
+        id: Date.now(),
+        text: msg,
+        username: 'Kath'
+      }
+      comments = [...comments, message]
+      event.target.text.value = ''
+    }
+  }
+</script>
+
 <style>
   .Comments h3 {
     font-size: 14px;
@@ -12,23 +28,22 @@
     font-weight: normal;
     color: rgba(black, 0.9);
   }
-  .Comments-add {
+  .comments-add {
     padding: 1em 1em 1em 1em;
     border-top: 1px solid rgba(219, 219, 219, 0.8);
   }
-  .Comments-add form {
+  .comments-add form {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .Comments-content {
+  .comments-content {
     padding: 0 1em 0.5em 1em;
   }
-  .Comments-users {
+  .comments-users {
     margin: 0 0 0.5em 0;
     display: flex;
   }
-
   input {
     border: solid 1px #e9e9e9;
     border-radius: 5px;
@@ -52,17 +67,24 @@
 </style>
 
 <div class="Comments">
-  <div class="Comments-content">
-    <div class="Commnets-users">
-      <h3>Winny
-        <span>Hola Haru</span>
-      </h3>
-    </div>
-    <div class="Comments-add">
-      <form >
-        <input type="text" class="Commnets-input" placeholder="Agregar comentario..." id="text">
-        <button type="submit">Post</button>
+  <div class="comments-content">
+
+    {#each comments as comment (comment.id)}
+      <div class="comments-users">
+        <h3>{comment.username}</h3>
+        <span>{comment.text}</span>
+      </div>
+    {/each}
+
+    <div class="comments-add">
+      <form on:submit|preventDefault={addComment}>
+        <input
+          type="text"
+          class="comments-input"
+          placeholder="Add Comment"
+          id="text" />
       </form>
+      <button type="submit">Post</button>
     </div>
   </div>
 </div>

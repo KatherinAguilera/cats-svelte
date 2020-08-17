@@ -1,17 +1,23 @@
 <script>
-  import Card from './Card.svelte';
+  import Card from "./Card.svelte";
+
+  export let posts = [];
 </script>
 
-
 <style>
-  .TimeLine {
+  .Timeline {
     padding: 4em 0 0 0;
   }
 </style>
 
-<div class="TimeLine">
-  <div class="TimeLine-container">
-    <Card />
+<div class="Timeline">
+  <div class="timeline-container">
+    {#each posts as post}
+      <Card {...post} />
+    {:else}
+      <p>Loading...</p>
+    {/each}
   </div>
-TimeLine
 </div>
+
+<!-- TimeLine.svelte -->
