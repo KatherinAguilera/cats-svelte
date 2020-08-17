@@ -1,0 +1,115 @@
+{
+  "user": {
+      "nickname": "jenkath",
+      "name": "Katherine Aguilera"
+  },
+  "posts": [
+    {
+        "username": "Haru",
+        "location": "Tocancipá, Colombia",
+        "avatar": "https://photos.google.com/share/AF1QipPn2HkJEBpdKHbg7Q6twYOsv0gbKj8gcqgnR3NVO_H2lLEOHWC5tp_Q2Ue2Q8A2Pw/photo/AF1QipMkvfMBTT9fp9IAuudV4zBIT5DWb5tvBGgZKIuX?key=ZVJwWjZIV0pRdzU2Nmh0V3E5U0IwV0Qxb1lQbWRB",
+        "photo": "https://lh3.googleusercontent.com/pw/ACtC-3c73D7LpvFAmWMFSGemb1hpkEhuho3DiTvbEfSxZGHTkCTs3yrnchjDlfTBrSaXXJvFM8jJbcg3pJc9ZhjzXe8b0PeMZP10P4NoqzODRA1AoJCoc3BO53hcktmb2mRoebM-n8iVjqgTzsP5lHgQqpsNQg=w727-h969-no",
+        "like": false,
+        "bookmark": false,
+        "postComment": "Cats Dev",
+        "comments": [
+            {
+                "id": 123234535,
+                "text": "Wow",
+                "username": "Yoko"
+            }
+        ]
+      },
+      {
+          "username": "Yoko",
+          "location": "Bogotá, Colombia",
+          "avatar": "https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cat-questions-nationalgeographic_1228126.jpg?w=1600&h=900",
+          "photo": "https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cat-questions-nationalgeographic_1228126.jpg?w=1600&h=900",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Hola mundo n_n",
+          "comments": [
+              {
+                  "id": 123234535,
+                  "text": "Hola Yoko",
+                  "username": "Crispeta"
+              },
+              {
+                  "id": 1232322312,
+                  "text": "Bella",
+                  "username": "Kuro"
+              }
+          ]
+      },
+      {
+          "username": "Shiro",
+          "location": "Tokyio, Japon",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYaW197Shv35W5dJV3aZBckPXLpTA5gV7_IQ&usqp=CAU",
+          "photo": "https://www.zooplus.es/magazine/wp-content/uploads/2018/11/fotolia_122422577-768x576.jpg",
+          "like": false,
+          "bookmark": false,
+          "postComment": "¿Un dia feliz?",
+          "comments": []
+      },
+      {
+          "username": "Sky",
+          "location": "Lima, Peru",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxVYbyHUro2MsaL1WmBt0iBBa9dMDVzkQeNA&usqp=CAU",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxVYbyHUro2MsaL1WmBt0iBBa9dMDVzkQeNA&usqp=CAU",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Cazare algo!",
+          "comments": []
+      },
+      {
+          "username": "Jim",
+          "location": "New york, EEUU",
+          "avatar": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.agronegocios.co%2Fmascotas%2Frazas-que-ganan-espacio-en-los-hogares-2620897&psig=AOvVaw0y64uzdDNdIlxP-aLpmCF5&ust=1597789110345000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiZr7iio-sCFQAAAAAdAAAAABAX",
+          "photo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.agronegocios.co%2Fmascotas%2Frazas-que-ganan-espacio-en-los-hogares-2620897&psig=AOvVaw0y64uzdDNdIlxP-aLpmCF5&ust=1597789110345000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiZr7iio-sCFQAAAAAdAAAAABAX",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Quiero dormir!",
+          "comments": []
+      },
+      {
+          "username": "Kuro",
+          "location": "Santiago, Chile",
+          "avatar": "https://media.ultimahora.com/adjuntos/161/imagenes/009/510/0009510130.jpg",
+          "photo": "https://media.ultimahora.com/adjuntos/161/imagenes/009/510/0009510130.jpg",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Quiero Jugar!",
+          "comments": []
+      },
+      {
+          "username": "Kaori",
+          "location": "Medellin, Colombia",
+          "avatar": "https://www.google.com/url?sa=i&url=http%3A%2F%2Ftallersmariavictrix.blogspot.com%2F2013%2F05%2Fclasicas-posturas-de-gatos-durmiendo.html&psig=AOvVaw0y64uzdDNdIlxP-aLpmCF5&ust=1597789110345000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiZr7iio-sCFQAAAAAdAAAAABAw",
+          "photo": "https://www.google.com/url?sa=i&url=http%3A%2F%2Ftallersmariavictrix.blogspot.com%2F2013%2F05%2Fclasicas-posturas-de-gatos-durmiendo.html&psig=AOvVaw0y64uzdDNdIlxP-aLpmCF5&ust=1597789110345000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiZr7iio-sCFQAAAAAdAAAAABAw",
+          "like": false,
+          "bookmark": false,
+          "postComment": "A dormir!",
+          "comments": []
+      },
+      {
+          "username": "Bam",
+          "location": "Buenos Aires, Argentina",
+          "avatar": "https://t1.ea.ltmcdn.com/es/images/5/0/8/img_por_que_mi_gato_no_bebe_agua_21805_600_square.jpg",
+          "photo": "https://t1.ea.ltmcdn.com/es/images/5/0/8/img_por_que_mi_gato_no_bebe_agua_21805_600_square.jpg",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Hola, ¿Cómo te llamas?",
+          "comments": []
+      },
+      {
+          "username": "Pelusa",
+          "location": "Cali, Colombia",
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkoo3Ou_1KbluoTYDOH4BByouBqMgM2CdjOQ&usqp=CAU",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkoo3Ou_1KbluoTYDOH4BByouBqMgM2CdjOQ&usqp=CAU",
+          "like": false,
+          "bookmark": false,
+          "postComment": "Me voy!",
+          "comments": []
+      }
+  ]
+}

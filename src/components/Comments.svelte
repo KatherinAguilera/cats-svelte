@@ -7,7 +7,7 @@
       const message = {
         id: Date.now(),
         text: msg,
-        username: "gndx"
+        username: "jenkath"
       };
       comments = [...comments, message];
       event.target.text.value = "";
@@ -39,10 +39,10 @@
     align-items: center;
   }
   .Comments-content {
-    padding: 0 1em 0.5em 1em;
+    padding: 1em 1em 1em 0;
   }
   .Comments-users {
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.6em 0;
     display: flex;
   }
 

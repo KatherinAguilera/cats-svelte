@@ -3,7 +3,7 @@
     border: 1px solid rgba(219, 219, 219, 1);
     border-radius: 4px;
     margin: 1em 0;
-    padding: 0.5em 1em;
+    padding: 0.5em 6em 0.5em 1em;
     background-color: white;
   }
   .Stories-item img {
@@ -66,11 +66,29 @@
     <div class="Stories-items">
       <div class="Stories-item">
         <div class="Stories-item-box">
-          <img src="https://image.flaticon.com/icons/svg/1752/1752735.svg" alt="" />
+          <img src="https://www.tm-town.com/assets/default_female600x600-3702af30bd630e7b0fa62af75cd2e67c.png" alt="" />
         </div>
         <h2>
-          gndx
-          <span>10 horas antes</span>
+          Nahomi
+          <span>2 horas antes</span>
+        </h2>
+      </div>
+            <div class="Stories-item">
+        <div class="Stories-item-box">
+          <img src="https://www.kindpng.com/picc/m/136-1369892_avatar-people-person-business-user-man-character-avatar.png" alt="" />
+        </div>
+        <h2>
+          Paul
+          <span>3 horas antes</span>
+        </h2>
+      </div>
+            <div class="Stories-item">
+        <div class="Stories-item-box">
+          <img src="https://www.jetbluevtc.com/images/team-member/avatar7.png" alt="" />
+        </div>
+        <h2>
+          Kyle
+          <span>4 horas antes</span>
         </h2>
       </div>
     </div>
