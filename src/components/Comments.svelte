@@ -1,15 +1,16 @@
 <script>
   export let comments = [];
-  function addComment(e) {
-    const msg = event.target.text.value
-    if(msg.length > 3) {
+
+  function addComment(event) {
+    const msg = event.target.text.value;
+    if (msg.length > 3) {
       const message = {
         id: Date.now(),
         text: msg,
-        username: 'Kath'
-      }
-      comments = [...comments, message]
-      event.target.text.value = ''
+        username: "gndx"
+      };
+      comments = [...comments, message];
+      event.target.text.value = "";
     }
   }
 </script>
@@ -28,22 +29,23 @@
     font-weight: normal;
     color: rgba(black, 0.9);
   }
-  .comments-add {
+  .Comments-add {
     padding: 1em 1em 1em 1em;
     border-top: 1px solid rgba(219, 219, 219, 0.8);
   }
-  .comments-add form {
+  .Comments-add form {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .comments-content {
+  .Comments-content {
     padding: 0 1em 0.5em 1em;
   }
-  .comments-users {
+  .Comments-users {
     margin: 0 0 0.5em 0;
     display: flex;
   }
+
   input {
     border: solid 1px #e9e9e9;
     border-radius: 5px;
@@ -67,24 +69,22 @@
 </style>
 
 <div class="Comments">
-  <div class="comments-content">
-
+  <div class="Comments-content">
     {#each comments as comment (comment.id)}
-      <div class="comments-users">
+      <div class="Comments-users">
         <h3>{comment.username}</h3>
         <span>{comment.text}</span>
       </div>
     {/each}
-
-    <div class="comments-add">
+    <div class="Comments-add">
       <form on:submit|preventDefault={addComment}>
         <input
           type="text"
-          class="comments-input"
-          placeholder="Add Comment"
+          class="Comments-input"
+          placeholder="Agregar Comentario..."
           id="text" />
+        <button type="submit">Post</button>
       </form>
-      <button type="submit">Post</button>
     </div>
   </div>
 </div>

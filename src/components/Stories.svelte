@@ -39,7 +39,7 @@
   }
   .Stories-head span {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
   }
   .Stories-items {
@@ -51,7 +51,7 @@
     border: double 2px transparent;
     border-radius: 100%;
     background-image: linear-gradient(#fff, #fff),
-    radial-gradient(circle at top left, #f09433, #bc1888);
+      radial-gradient(circle at top left, #f09433, #bc1888);
     background-origin: border-box;
     background-clip: content-box, border-box;
   }
@@ -66,10 +66,10 @@
     <div class="Stories-items">
       <div class="Stories-item">
         <div class="Stories-item-box">
-          <img src="https://avatars2.githubusercontent.com/u/4594747?s=460&u=59a2eddd70b02976053ca84c80df6578617588cd&v=4" alt="">
+          <img src="https://image.flaticon.com/icons/svg/1752/1752735.svg" alt="" />
         </div>
         <h2>
-          ktyagui
+          gndx
           <span>10 horas antes</span>
         </h2>
       </div>

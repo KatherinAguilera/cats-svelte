@@ -152,8 +152,9 @@
     <div class="card-header">
       <div class="card-user">
         <img src={avatar} alt={username} />
-        <h2>{username}</h2>
-        <span>{location}</span>
+        <h2>{username}
+          <span>{location}</span>
+        </h2>
       </div>
       <div class="card-settings">
         <i class="fas fa-ellipsis-h" />

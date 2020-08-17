@@ -30,7 +30,7 @@
 <div class="Profile">
   <div class="Profile-content">
     <div class="Profile-avatar">
-      <img src="https://avatars2.githubusercontent.com/u/4594747?s=460&u=59a2eddd70b02976053ca84c80df6578617588cd&v=4" alt="">
+      <img src="https://image.flaticon.com/icons/svg/1752/1752735.svg" alt="">
     </div>
     <div class="Profile-info">
       <h2>{nickname}</h2>
